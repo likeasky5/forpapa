@@ -27,7 +27,7 @@ plt.rc('font', family=fontname)
 
 st.title("똘똘이 스머프에게")
 st.header("우왕 이거 짱 신기하다")
-st.text("AI강의에서 웹페이지로 배포하는것도 가르쳐주길래 테스트로 한번 해봄 잘 보이면 따봉 눌러줘ㅋ")
+st.markdown("AI강의에서 웹페이지로 배포하는것도 가르쳐주길래 테스트로 한번 해봄  \n잘 보이면 따봉 눌러줘ㅋ")
 
 # 버튼 클릭 횟수 초기화
 if 'button_count' not in st.session_state:
